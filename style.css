@@ -1,0 +1,145 @@
+/*
+=================================================
+Style
+=================================================
+*/
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+}
+body{
+    margin:0;
+    background:#114278;
+    text-align: center;
+    font-family:sans-serif;
+    padding:0 30px
+}
+h1{
+    margin-top:250px;
+    margin-bottom:25px;
+    font-size:150px;
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+   font-family: 'Montserrat', sans-serif;
+}
+.search-bar{
+   width:80%;
+   
+}
+.submit-button{
+   width:15%;
+   background:#000;
+   color:#FFF;
+   font-family: 'Montserrat', sans-serif;
+}
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks a{
+   text-decoration: none;
+}
+.bookmarks{
+   padding:30px 0 0 0;
+   clear:both;
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+}
+.bookmarks i{
+   font-size:42px;
+   margin:0;
+   color:#FFF;
+   transition:.15s;
+   vertical-align: top;
+   text-align: center;
+   display:inline-block;
+}
+.bookmarks i:hover{
+   font-size:72px;
+   position:relative;
+}
+
+/*
+=================================================
+CLOCK
+=================================================
+*/
+#clock {
+   font-size: 50px;
+   margin-top: 50px;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+/*
+=================================================
+STICKY NOTE ICON
+=================================================
+*/
+.sticky-note-icon {
+   position: fixed;
+   bottom: 10px;
+   left: 10px;
+}
+
+.sticky-note-icon i {
+   font-size: 42px;
+   color: #fff;
+   cursor: pointer;
+   transition: .15s;
+}
+
+.sticky-note-icon i:hover {
+   font-size: 52px;
+}
+
+/*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#note{
+ width:250px;
+ height:250px;
+ resize: none;
+ background:#F3F19D;
+ padding:15px;
+ border:none;
+ position: absolute;
+ bottom:70px;
+ left:70px;
+ font-family:sans-serif;
+ opacity: 0%;
+}
+
+.spotify{
+   opacity: 0%;
+}
