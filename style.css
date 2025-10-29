@@ -94,11 +94,16 @@ CLOCK
 */
 #clock {
    font-size: 50px;
-   margin-top: 320px;
-   font-family: sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    color: #FFF;
-   font-family: 'Montserrat', sans-serif;
+
+   /* Positioning */
+   position: fixed;
+   bottom: 20px; /* adjust this value if you want some space from the bottom edge */
+   left: 50%;
+   transform: translateX(-50%);
+   margin: 0; /* remove the margin-top */
 }
 
 /*
